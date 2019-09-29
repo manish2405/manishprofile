@@ -1,0 +1,169 @@
+.overview{
+    h1{
+        padding-top: 10px;
+        padding-bottom: 5px;
+        width: 25%;
+    }
+    span{
+        color: #128df1;
+    }
+    p{
+        font-size: 20px;
+    }
+    
+}
+
+.skills{
+    h1{
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    .info1 i{
+        color: rgb(124, 124, 124);
+    }
+    h3{
+        color: rgb(80, 79, 79);
+        text-shadow: 1px 1px white;
+    }
+    li{
+        padding: 8px;
+        font-size: 18px;
+
+    }
+    .info2{
+        padding-left: 150px;
+    }
+}
+.skills .row{
+    padding: 15px;
+    border-radius: 10px;
+    justify-content: flex-start;
+    background-color: #f7f7f7;
+}
+
+.project{
+    margin-top: 10%;
+    h1{
+        padding-bottom: 20px;
+
+    }
+    li{
+        color: #1981f8;
+        text-shadow: 1px 1px white;
+        font-size: 20px;
+        margin: 0%;
+        padding: 5px;
+        font-weight: 500;
+    }
+    p{
+        padding: 5px;
+    }
+    .projectlink{
+        padding: 5px;
+        .msg{
+            color: #1981f8;
+            padding-bottom: 30px;
+            display: none;
+        }
+    }
+    a{
+        color: #128df1;
+        padding: 10px;
+    }
+}
+
+.contact{
+    margin-top: 10%;
+    h1{
+        padding-bottom: 20px; 
+    }
+    .contact-container{
+        background-color: #f7f7f7;
+        border-radius: 10px;
+        padding: 20px;
+        .social{
+            padding-top: 140px;
+            p{
+                font-size: 15px;
+                color: rgb(145, 141, 141);
+            }
+            i{
+                transition: 0.3s;
+                padding: 10px;
+                &:hover{
+                    color: #128df1;
+                    
+                }
+            }
+        }
+        h2{
+            color: rgb(100, 99, 99);
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgb(155, 153, 153);
+            width: 150px;
+        }
+        h3{
+            color: #128df1;
+            padding: 2px;
+            padding-top: 50px;
+        }
+        i{
+            color: black;
+            padding-right: 8px;
+        }
+        .form{
+            ul{
+                padding: 0;
+            }
+            form{
+                li{
+                    list-style: none;
+                    margin-bottom: 8px;
+                    font-weight: 500;
+                }
+                .textfield{
+                    padding: 4px;
+                    width: 230px;
+                    border-radius: 5px;
+                }
+            }
+
+        }
+    }
+}
+    
+@media screen and (max-width: 768px){
+    
+    .main-content{
+        .projectlink{
+            .msg{
+                display: block;
+            }
+        }
+        .skills .row{
+            justify-content: flex-start;
+        }
+        h1{
+            padding-top: 10px;
+            padding-bottom: 5px;
+            font-size: 22px;
+        }
+        h3{
+            font-size: 18px;
+        }
+        span, a, p, li{
+            font-size: 15px;
+        }
+        .contact-container{
+            display: flex;
+            flex-direction: column-reverse;
+            .info{
+                padding-top: 10px;
+            }
+            .social{
+                padding-bottom: 50px;
+                padding-top: 10px;
+            }
+        }
+    }
+}

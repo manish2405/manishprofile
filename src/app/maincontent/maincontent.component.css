@@ -1,0 +1,70 @@
+.overview h1 {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  width: 25%;
+}
+
+.overview span {
+  color: #128df1;
+}
+
+.overview p {
+  font-size: 20px;
+}
+
+.skills h1 {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.skills .info1 i {
+  color: #7c7c7c;
+}
+
+.skills h3 {
+  color: #504f4f;
+  text-shadow: 1px 1px white;
+}
+
+.skills li {
+  padding: 8px;
+  font-size: 18px;
+}
+
+.skills .row {
+  padding: 15px;
+  border-radius: 10px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #f7f7f7;
+}
+
+.project {
+  margin-top: 10%;
+}
+
+.project h1 {
+  padding-bottom: 20px;
+}
+
+.project li {
+  color: #1981f8;
+  text-shadow: 1px 1px white;
+  font-size: 20px;
+  margin: 0%;
+  padding: 5px;
+}
+
+.project p {
+  padding: 5px;
+}
+
+.project span {
+  padding: 5px;
+}
+
+.project a {
+  color: #128df1;
+  padding: 10px;
+}
+/*# sourceMappingURL=maincontent.component.css.map */

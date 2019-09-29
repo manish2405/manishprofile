@@ -1,0 +1,80 @@
+
+.contact{
+    margin-top: 10%;
+    h1{
+        padding-bottom: 20px; 
+    }
+    .contact-container{
+        background-color: #f7f7f7;
+        border-radius: 10px;
+        padding: 20px;
+        .social{
+            padding-top: 140px;
+            p{
+                font-size: 15px;
+                color: rgb(145, 141, 141);
+            }
+            i{
+                transition: 0.3s;
+                padding: 10px;
+                &:hover{
+                    color: #128df1;
+                    
+                }
+            }
+        }
+        h2{
+            color: rgb(100, 99, 99);
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgb(155, 153, 153);
+            width: 150px;
+        }
+        h3{
+            color: #128df1;
+            padding: 2px;
+            padding-top: 50px;
+        }
+        i{
+            color: black;
+            padding-right: 8px;
+        }
+        .form{
+            ul{
+                padding: 0;
+            }
+            form{
+                li{
+                    list-style: none;
+                    margin-bottom: 8px;
+                    font-weight: 500;
+                }
+                .textfield{
+                    padding: 4px;
+                    width: 230px;
+                    border-radius: 5px;
+                }
+            }
+
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 768px){
+
+    .contact-container{
+        display: flex;
+        flex-direction: column-reverse;
+        .info{
+            padding-top: 10px;
+            p{
+                display: flex;
+            }
+        }
+        .social{
+            padding-bottom: 50px;
+            padding-top: 10px;
+        }
+    }
+}
